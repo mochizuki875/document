@@ -4,12 +4,12 @@
 https://qiita.com/nenokido2000/items/763a4af5c161ff5ede68
 
 ### zshのフレームワークpreztoの導入
-https://qiita.com/rspepe/items/9e30e698c4fc3e90891d
-https://andooown.com/blog/post/2018/02/prezto/
+https://qiita.com/rspepe/items/9e30e698c4fc3e90891d  
+https://andooown.com/blog/post/2018/02/prezto/  
 
 ### zshのプラグイン管理ツールzplug
-http://post.simplie.jp/posts/59
-https://sanoto-nittc.hatenablog.com/entry/2017/12/16/213735
+http://post.simplie.jp/posts/59  
+https://sanoto-nittc.hatenablog.com/entry/2017/12/16/213735  
 
 
 ~/.zshrcに以下を追記 
@@ -66,4 +66,9 @@ fi
 zplug load --verbose
 ~~~
 
+### Syntax有効化
 
+~/.vimrc
+~~~
+:syntax on
+~~~
