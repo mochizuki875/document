@@ -14,6 +14,20 @@ https://sanoto-nittc.hatenablog.com/entry/2017/12/16/213735
 
 ~/.zshrcに以下を追記 
 ~~~
+#
+# Executes commands at the start of an interactive session.
+#
+# Authors:
+#   Sorin Ionescu <sorin.ionescu@gmail.com>
+#
+
+# Source Prezto.
+if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
+  source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
+fi
+
+# Customize to your needs...
+
 
 # zplugが無ければgitからclone
 if [[ ! -d ~/.zplug ]];then
